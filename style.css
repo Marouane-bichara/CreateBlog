@@ -60,6 +60,73 @@ header
 
 
 
+/* hero section */
+
+
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 100px;
+}
+
+.container
+{
+
+    min-height: 70vh;
+    width: 100%;
+    border: 1px solid black;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 280px;
+
+}
+
+.text-Container
+{
+    border: 1px solid black;
+    width: 50%;
+    min-width: 280px;
+    height: auto;
+}
+
+
+.Picture-container
+{
+    width: 50%;
+    border: 1px solid black;
+    min-width: 280px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1250px)
 {
