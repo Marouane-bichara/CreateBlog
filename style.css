@@ -71,20 +71,21 @@ header
     justify-content: center;
     align-items: center;
     padding: 200px 100px;
+    background-color: rgb(255, 255, 255);
 }
 
 .container
 {
-
-    min-height: 70vh;
+    height: 60;
+    min-height: 60vh;
     width: 100%;
     border: 1px solid black;
-    min-width: 200px;
+    min-width: 340px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-width: 280px;
+
 
 }
 
@@ -92,8 +93,13 @@ header
 {
     border: 1px solid black;
     width: 50%;
-    min-width: 280px;
+    min-width: 340px;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
 }
 
 
@@ -102,7 +108,36 @@ header
     width: 50%;
     border: 1px solid black;
     min-width: 280px;
-    height: auto;
+    height: 350px;
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 340px;
+}
+
+
+.text-Container h2
+{
+    font-size: 3em;
+}
+
+.text-Container span
+{
+    color: red;
+}
+
+
+.Picture-container img
+{
+    border: 4px solid black;
+    border-radius: 100%;
+    /* height: 450px; */
+    height: 350px;
+    min-height: 250px;
+
+    width: 350px;
+    min-width: 250px;
 }
 
 
@@ -111,15 +146,72 @@ header
 
 
 
+@media(max-width:880px)
+{
+    
+    .hero
+    {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+.container
+{
+    height: 70vh;
+    padding: 10px;
+}
+
+.text-Container
+{
+    border: 1px solid black;
+    width: 50%;
+    min-width: 340px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
 
 
+.Picture-container
+{
+    width: 50%;
+    border: 1px solid black;
+    min-width: 280px;
+    height: 350px;
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 340px;
+}
 
 
+.text-Container h2
+{
+    font-size: 3em;
+}
+
+.text-Container span
+{
+    color: red;
+}
 
 
+.Picture-container img
+{
+    border: 4px solid black;
+    border-radius: 100%;
+    /* height: 450px; */
+    height: 350px;
+    min-height: 250px;
 
-
-
+    width: 350px;
+    min-width: 250px;
+}
+}
 
 
 
@@ -145,7 +237,7 @@ header
         position: absolute;
         top: 100%;
         right: -100%;
-        background-color: #00000080;
+        background-color: #ffffff80;
         backdrop-filter: blur(10px);
         height: 65vh;
         width: 100%;
@@ -167,4 +259,8 @@ header
     {
         right: 0;
     }
+
+
+
+
 }
