@@ -8,3 +8,5 @@ menu.addEventListener('click',()=>
     navlist.classList.toggle("open");
 }
 );
+
+
